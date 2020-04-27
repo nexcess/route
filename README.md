@@ -6,9 +6,11 @@
 
 The Riot Router is the minimal router implementation with such technologies:
 
+**Note:** This package doesn't work with Riot.js 4 yet. It will be updated asap.
+
 - pushState and history API
 - multiple routing groups
-- replacable parser
+- replaceable parser
 - compatible with IE9 and higher
 
 It started as a part of Riot.js, but now it becomes an independent library. It works with or without Riot.js.
@@ -61,12 +63,13 @@ $ bower install --save riot-route
 
 - [API Documentation (latest)](doc/)
 
-See also [riotjs.com](http://riotjs.com/api/route/).
+See also [riot.js.org](http://riot.js.org/api/route/).
 
-## Demos
+<!-- ## Demos
 
-- [Page switching](http://riotjs.com/examples/plunker/?app=router-page-switcher)
-- [Complex routings](http://riotjs.com/examples/plunker/?app=router-complex)
+- [Page switching](http://riot.js.org/examples/plunker/?app=router-page-switcher)
+- [Complex routings](http://riot.js.org/examples/plunker/?app=router-complex)
+- [Tag-based routing](https://plnkr.co/edit/vp7mgXh89ERC9NIJ4yGK?p=preview) -->
 
 ## Contribute
 
@@ -94,5 +97,5 @@ MIT (c) Muut, Inc. and other contributors
 [coverage-image]:https://img.shields.io/coveralls/riot/route/master.svg?style=flat-square
 [coverage-url]:https://coveralls.io/github/riot/route/?branch=master
 
-[codeclimate-image]:https://img.shields.io/codeclimate/github/riot/route.svg?style=flat-square
+[codeclimate-image]:https://api.codeclimate.com/v1/badges/1487b171ba4409b5c302/maintainability
 [codeclimate-url]:https://codeclimate.com/github/riot/route
